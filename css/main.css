@@ -1,0 +1,261 @@
+/*!
+ * Start Bootstrap - Logo Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+@media(min-width:768px) {
+    body {
+        padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
+
+    .employee-portal {
+      margin-left: 50px;
+    }
+
+    .carousel-caption>h2 {
+      font-size: 100px;
+      margin-bottom: 200px;
+    }
+}
+
+@media(max-width:600px) {
+  .row {
+    padding: 15px;
+  }
+  .navbar-fixed-top .nav {
+    padding: 0;
+  }
+
+  .carousel-caption>h2 {
+    font-size: 60px;
+    margin-bottom: 70px;
+  }
+
+  .navbar-inverse .navbar-nav>li>a {
+    display: none;
+  }
+
+  .icon {
+    margin-bottom: 70px;
+  }
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  clear: both;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #000;
+  -moz-box-shadow: 0 8px 6px -6px #000;
+  box-shadow: 0 8px 6px -6px #000;
+  margin-bottom: 0;
+  border: none;
+}
+
+.navbar-inverse {
+  background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #400101;
+  font-size: 17px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+  color: #730C02;
+}
+
+.navbar-inverse .navbar-nav>li>a:active {
+  color: #730C02;
+}
+
+.btn-danger {
+  background-color: #730C02;
+  border-color: #730C02;
+}
+
+.glyphicon {
+  font-size: 100px;
+  color: #730C02;
+}
+
+.navbar-toggle {
+  background-color: #730C02;
+}
+
+.navbar-toggle:hover {
+  background-color: #400101;
+}
+
+/*.carousel-caption>h2 {
+  font-size: 70px;
+  margin-bottom: 200px;
+}*/
+
+.contact-info {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/*.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }*/
+
+    .CSSTableGenerator {
+    	margin:0px;padding:0px;
+    	width:100%;
+    	box-shadow: 10px 10px 5px #888888;
+    	border:1px solid #000000;
+
+    	-moz-border-radius-bottomleft:0px;
+    	-webkit-border-bottom-left-radius:0px;
+    	border-bottom-left-radius:0px;
+
+    	-moz-border-radius-bottomright:0px;
+    	-webkit-border-bottom-right-radius:0px;
+    	border-bottom-right-radius:0px;
+
+    	-moz-border-radius-topright:0px;
+    	-webkit-border-top-right-radius:0px;
+    	border-top-right-radius:0px;
+
+    	-moz-border-radius-topleft:0px;
+    	-webkit-border-top-left-radius:0px;
+    	border-top-left-radius:0px;
+    }.CSSTableGenerator table{
+        border-collapse: collapse;
+            border-spacing: 0;
+    	width:100%;
+    	height:100%;
+    	margin:0px;padding:0px;
+    }.CSSTableGenerator tr:last-child td:last-child {
+    	-moz-border-radius-bottomright:0px;
+    	-webkit-border-bottom-right-radius:0px;
+    	border-bottom-right-radius:0px;
+    }
+    .CSSTableGenerator table tr:first-child td:first-child {
+    	-moz-border-radius-topleft:0px;
+    	-webkit-border-top-left-radius:0px;
+    	border-top-left-radius:0px;
+    }
+    .CSSTableGenerator table tr:first-child td:last-child {
+    	-moz-border-radius-topright:0px;
+    	-webkit-border-top-right-radius:0px;
+    	border-top-right-radius:0px;
+    }.CSSTableGenerator tr:last-child td:first-child{
+    	-moz-border-radius-bottomleft:0px;
+    	-webkit-border-bottom-left-radius:0px;
+    	border-bottom-left-radius:0px;
+    }.CSSTableGenerator tr:hover td{
+
+    }
+    .CSSTableGenerator tr:nth-child(odd){ background-color:#b2b2b2; }
+    .CSSTableGenerator tr:nth-child(even)    { background-color:#ffffff; }.CSSTableGenerator td{
+    	vertical-align:middle;
+
+
+    	border:1px solid #000000;
+    	border-width:0px 1px 1px 0px;
+    	text-align:left;
+    	padding:13px;
+    	font-size:17px;
+    	font-family:Helvetica;
+    	font-weight:normal;
+    	color:#000000;
+    }.CSSTableGenerator tr:last-child td{
+    	border-width:0px 1px 0px 0px;
+    }.CSSTableGenerator tr td:last-child{
+    	border-width:0px 0px 1px 0px;
+    }.CSSTableGenerator tr:last-child td:last-child{
+    	border-width:0px 0px 0px 0px;
+    }
+    .CSSTableGenerator tr:first-child td{
+    		background:-o-linear-gradient(bottom, #400101 5%, #730c02 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #400101), color-stop(1, #730c02) );
+    	background:-moz-linear-gradient( center top, #400101 5%, #730c02 100% );
+    	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#400101", endColorstr="#730c02");	background: -o-linear-gradient(top,#400101,730c02);
+
+    	background-color:#400101;
+    	border:0px solid #000000;
+    	text-align:center;
+    	border-width:0px 0px 1px 1px;
+    	font-size:19px;
+    	font-family:Helvetica;
+    	font-weight:bold;
+    	color:#ffffff;
+    }
+    .CSSTableGenerator tr:first-child:hover td{
+    	background:-o-linear-gradient(bottom, #400101 5%, #730c02 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #400101), color-stop(1, #730c02) );
+    	background:-moz-linear-gradient( center top, #400101 5%, #730c02 100% );
+    	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#400101", endColorstr="#730c02");	background: -o-linear-gradient(top,#400101,730c02);
+
+    	background-color:#400101;
+    }
+    .CSSTableGenerator tr:first-child td:first-child{
+    	border-width:0px 0px 1px 0px;
+    }
+    .CSSTableGenerator tr:first-child td:last-child{
+    	border-width:0px 0px 1px 1px;
+    }
+
+    .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
+
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons';
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
